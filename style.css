@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+{
+  margin: auto;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lora', serif;
+  font-weight: 1000;
+  font-size: 1.2vw;
+  letter-spacing: normal;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background: #030f12;
+  color: whitesmoke;
+  width: 100%;
+  max-height: max-content;
+  min-height: 1em;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.logo-section{
+  width: 100%;
+  margin-left: initial;
+}
+
+.logo-sec{
+  margin-left: 0.8em;
+  max-width: 35%;
+  max-height: 100%;
+}
+
+.navigation-bar{
+  width: 70%;
+  flex-grow: 2%;
+  margin-inline-end: initial;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
