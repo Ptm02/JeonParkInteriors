@@ -61,7 +61,7 @@ ul{
 }
 
 .nav-link:hover{
-  color: #00FFFF;
+  color: RosyBrown;
   font-size: 30px;
 }
 
@@ -99,7 +99,7 @@ h1{
   padding-left: 0.5em;
   text-align: center;
   font-size: 5vw;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 }
 
 h2{
@@ -117,11 +117,27 @@ h2{
   animation: fade-in 5s;
 }
 
+.box-feature{
+  width: 60%;
+  max-height: auto;
+  animation: fade-in 5s;
+}
+
 @keyframes fade-in {
   0%{
-    opacity: 0;
+        opacity: 0;
   }
   100%{
-    opacity: 0;
+    opacity: 1;
   }
+}
+
+
+
+.box-feature img{
+  width: 100%;
+}
+
+.box-feature .cover-image{
+  animation: ease-in 5s;
 }
