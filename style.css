@@ -1,17 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-{
+*{
   margin: auto;
 }
 
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'Lora', serif;
+  font-family: 'Times New Roman';
   font-weight: 1000;
   font-size: 1.2vw;
-  letter-spacing: normal;
+  letter-spacing: 2px;
 }
 
 header{
@@ -47,4 +47,81 @@ header{
 a{
   color: gray;
   text-decoration: none;
+}
+
+header a,
+footer a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link:hover{
+  color: #00FFFF;
+  font-size: 30px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0px;
+  padding-top: 1em;
+  width: 100%;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:5% 0;
+}
+
+section div{
+  width: 50%;
+  margin: 0 auto;
+}
+
+section h1{
+  text-align: center;
+}
+
+.cover-section{
+  margin-top: 0px;
+  padding: 0% 0% 0% 0%;
+}
+
+h1{
+  padding-bottom: 30px;
+  padding-left: 0.5em;
+  text-align: center;
+  font-size: 5vw;
+  letter-spacing: 0.5em;
+}
+
+h2{
+  font-size: 2.8vw;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.title-text{
+  width: 40%;
+  text-align: center;
+  color: black;
+  margin: auto;
+  padding: 0 20px;
+  animation: fade-in 5s;
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
 }
