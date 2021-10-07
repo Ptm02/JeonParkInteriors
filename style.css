@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 *{
   margin: auto;
@@ -61,7 +60,7 @@ ul{
 }
 
 .nav-link:hover{
-  color: RosyBrown;
+  color: Teal;
   font-size: 30px;
 }
 
@@ -135,4 +134,134 @@ h2{
 
 .box-feature .cover-image{
   animation: ease-in 5s;
+}
+
+.container-fluid{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font: 400 21px "Brandson Grotesque", sans-serif;
+    letter-spacing: 2px;
+    color: Gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    text-align: justify;
+}
+
+
+body {
+    font: 400 14px/1.5 "Quattrocento Sans", sans-serif;
+    letter-spacing: 0;
+}
+
+
+.container {
+  position: relative;
+}
+
+.text-underline{
+position: relative;
+margin-bottom: 40px;
+}
+
+
+.text-block {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 100px;
+  right: 30px;
+  background-color: white;
+  color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+.section-text h2{
+  text-align: center;
+}
+
+.section-text p{
+  text-align: justify;
+  margin: auto 2.5em;
+  line-height: 1.9em;
+  font: 400 21px "Helvetica", serif;
+}
+
+.sample{
+  flex-direction: column;
+  background-color: inherit;
+}
+
+.featured{
+  width: 60%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 5%;
+  margin: 20px auto;
+}
+
+.work{
+  width: 100%;
+  color: black;
+}
+
+.work img{
+  width: 300px;
+  height: 450px;
+  cursor: pointer;
+  max-height: auto;
+  border-radius: 15px;
+  opacity: 0.8;
+  filter: grayscale(100%);
+}
+
+.work img:hover{
+  cursor: pointer;
+  transform: translateY(-15px);
+  transition: all ease 0.5s;
+  opacity: 1;
+  filter: grayscale(0%);
 }
