@@ -1,13 +1,8 @@
-/* #progress-bar {
-//  --scrollAmount: 0%;
+body {
+  border-top: 4px solid #37ba8a;
+  margin: 0;
+}
 
-//  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
-//  width: var(--scrollAmount);
-//  height: 4px;
-//  top: 0;
-//  position: fixed;
-//}
-*/
 *{
   margin: auto;
 }
@@ -206,8 +201,8 @@ body {
 }
 
 .text-underline{
-position: relative;
-margin-bottom: 40px;
+  position: relative;
+  margin-bottom: 40px;
 }
 
 
@@ -270,4 +265,63 @@ margin-bottom: 40px;
   transition: all ease 0.5s;
   opacity: 1;
   filter: grayscale(0%);
+}
+
+.work figcaption{
+  text-align: center;
+  margin: 15px;
+  font: 400 18px "Helvetica", serif;
+}
+
+.contact-section{
+  width: 90%;
+  background: black;
+  color: ghostwhite;
+  padding: 50px;
+  margin-bottom:  50px;
+}
+
+.form-box{
+  padding-top: 1em;
+}
+
+form .form-entry{
+  display: block;
+  padding: 0.8em 0;
+}
+
+.section-text h2{
+  letter-spacing: 5px;
+  padding-left: 40px;
+}
+
+.section-text p{
+  text-align: center;
+  font: 18px "Georgia", serif;
+}
+
+form .txt-box{
+  margin-top: 0.3em;
+  width: 100%;
+  padding: 0.7em 0;
+  border-radius: 2px;
+  border: 2px transparent;
+}
+
+form .btn{
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  padding: 9px 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  border: 2px solid #eaeaea;
+  box-shadow: 0px 0px 10px 1px #29393e;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background: rgb(32, 32, 32);
+  color: aliceblue;
 }
