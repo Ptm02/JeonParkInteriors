@@ -241,11 +241,12 @@ margin-bottom: 40px;
 }
 
 .featured{
+  justify-content: center;
   width: 60%;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   grid-gap: 5%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .work{
