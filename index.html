@@ -157,20 +157,40 @@
               </section>
     </main>
 
-    <script src="nanobar.js"></script>
-    <script>
-      var nanobar = new Nanobar();
-      var element = document.documentElement,
-        body = document.body,
-        scrollTop = 'scrollTop',
-        scrollHeight = 'scrollHeight',
-        progress = document.querySelector('.progress-bar'),
-        scroll;
 
-      document.addEventListener('scroll', function() {
-        scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
-        progress.style.setProperty('--scroll', scroll + '%');
-      });
-    </script>
+
+    <!--Progress Bar -->
+
+      <script src="nanobar.js"></script>
+      <script>
+        var nanobar = new Nanobar();
+        var element = document.documentElement,
+          body = document.body,
+          scrollTop = 'scrollTop',
+          scrollHeight = 'scrollHeight',
+          progress = document.querySelector('.progress-bar'),
+          scroll;
+        document.addEventListener('scroll', function() {
+          scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+          progress.style.setProperty('--scroll', scroll + '%');
+        });
+      </script>
+
+
+
+    <!-- Footer Section -->
+
+        <footer class="footer-section">
+          <div class="footer-info">
+            <ul style="list-style-type: none;">
+              <li> <span> Privacy &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+              <li> <span> Terms &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+              <li> <span> Contact &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+            </ul>
+          </div>
+          <span class="p-info"> Created by Pratima Rajput. <br> 20501411 </span>
+          <span> Copyright &copy; 2021 </span>
+        </footer>
+
   </body>
 </html>

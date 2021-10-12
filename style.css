@@ -16,8 +16,12 @@ body{
   letter-spacing: 2px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .progress-bar {
-  background: linear-gradient(to right, rgb(180, 60, 100) var(--scroll), transparent 0);
+  background: linear-gradient(to right, rgb(180, 60, 10) var(--scroll), transparent 0);
   background-repeat: no-repeat;
   width: 100%;
   position: fixed;
@@ -211,11 +215,6 @@ body {
   position: relative;
 }
 
-.text-underline{
-  position: relative;
-  margin-bottom: 40px;
-}
-
 
 .text-block {
   align-items: right;
@@ -284,6 +283,11 @@ body {
   font: 400 18px "Helvetica", serif;
 }
 
+.work figcaption a:hover{
+    color: DarkSlateGrey;
+    font-size: 25px;
+}
+
 .contact-section{
   width: 90%;
   background: black;
@@ -335,4 +339,62 @@ form .btn{
   cursor: pointer;
   background: rgb(32, 32, 32);
   color: aliceblue;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 3em;
+  width: 100%;
+  color: aliceblue;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.footer-section div{
+  margin-right: 2em;
+}
+
+.footer-section span{
+  text-align: center;
+  cursor: pointer;
+}
+
+.p-info{
+  text-align: center;
+}
+
+@media all and (max-width:768px){
+    section div{
+      width: 80%;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    .story-section,
+    .samples,.contact-section,.featured{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .featured{
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .section-text h2{
+      text-align: center;
+    }
+
+    .section-text p{
+      text-align: justify;
+      margin-right: 10%;
+      margin-left: 10%;
+      font-size: 2vw;
+    }
+
+    .work{
+      width: 80%;
+    }
 }
