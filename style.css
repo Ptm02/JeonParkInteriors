@@ -10,7 +10,6 @@ body {
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'Times New Roman';
   font-weight: 1000;
   font-size: 1.2vw;
   letter-spacing: 2px;
@@ -79,7 +78,7 @@ ul{
 
 .nav-link:hover{
   color: Teal;
-  font-size: 30px;
+  font-size: 20 px;
 }
 
 .container{
@@ -111,7 +110,8 @@ section h1{
   padding: 0% 0% 0% 0%;
 }
 
-h1{
+.title-text h1{
+  font-family: Georgia, monospace;
   padding-bottom: 30px;
   padding-left: 0.5em;
   text-align: center;
@@ -119,8 +119,8 @@ h1{
   letter-spacing: 0.3em;
 }
 
-h2{
-  font-size: 2.8vw;
+.title-text p{
+  font-size: 1vw;
   padding-bottom: 15px;
   text-transform: uppercase;
 }
@@ -133,7 +133,6 @@ h2{
   padding: 0 20px;
   animation: fade-in 5s;
 }
-
 
 @keyframes fade-in {
   0%{
@@ -234,10 +233,8 @@ body {
 }
 
 .section-text p{
-  text-align: justify;
   margin: auto 2.5em;
   line-height: 1.9em;
-  font: 400 21px "Helvetica", serif;
 }
 
 .sample{
@@ -285,7 +282,7 @@ body {
 
 .work figcaption a:hover{
     color: DarkSlateGrey;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .contact-section{
@@ -311,8 +308,8 @@ form .form-entry{
 }
 
 .section-text p{
-  text-align: center;
-  font: 18px "Georgia", serif;
+  text-align: left;
+  font: 18px "Tahoma", serif;
 }
 
 form .txt-box{
