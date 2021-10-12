@@ -16,6 +16,17 @@ body{
   letter-spacing: 2px;
 }
 
+.progress-bar {
+  background: linear-gradient(to right, rgb(180, 60, 100) var(--scroll), transparent 0);
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 1;
+}
+
 header{
   position: fixed;
   display: flex;
