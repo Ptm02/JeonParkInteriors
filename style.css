@@ -161,6 +161,11 @@ section h1{
   padding-bottom: auto;
 }
 
+.container-fluid img{
+  width: 100%;
+  padding: 0px;
+}
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -242,6 +247,32 @@ body {
   background-color: inherit;
 }
 
+.section-featured{
+    background-image: url('39.jpeg');
+    width: 60%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.section-featured h2{
+  text-align: center;
+  margin-top: 1.9em;
+  color: black;
+  letter-spacing: 25px;
+  text-shadow: 0 0 3px #808080;
+}
+
+.section-featured p{
+  text-align: center;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
 .featured{
   justify-content: center;
   width: 60%;
@@ -286,6 +317,7 @@ body {
 }
 
 .contact-section{
+  margin-top: 35em;
   width: 90%;
   background: black;
   color: ghostwhite;
@@ -302,25 +334,51 @@ form .form-entry{
   padding: 0.8em 0;
 }
 
+.section-text{
+  background-image: url('40.jpeg');
+  width: 60%;
+  height: 350px;
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .section-text h2{
+  opacity: 1.0;
+  color: #FFF0F5;
+  margin-top: 3em;
   letter-spacing: 5px;
-  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.section-text h1{
+  color: #FFE4E1;
+  letter-spacing: 15px;
+  text-shadow: 0 0 3px #000000;
 }
 
 .section-text p{
-  text-align: left;
-  font: 18px "Tahoma", serif;
+  margin-top: 40px;
+  text-align: center;
+  color: #FFE4B5;
+  font: 18px serif;
+  letter-spacing: 3px;
+}
+
+form .form-entry{
+    margin-left: 2em;
 }
 
 form .txt-box{
-  margin-top: 0.3em;
   width: 100%;
   padding: 0.7em 0;
   border-radius: 2px;
-  border: 2px transparent;
+  border: 1px transparent;
 }
 
 form .btn{
+  margin-left: 2em;
   text-align: center;
   background-color: whitesmoke;
   color: black;
