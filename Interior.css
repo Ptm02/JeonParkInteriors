@@ -1,0 +1,258 @@
+body {
+  background-color: Lavender;
+  border-top: 4px solid #37ba8a;
+  margin: 0;
+}
+
+*{
+  margin: auto;
+}
+
+img{
+  width: 550px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, rgb(180, 60, 10) var(--scroll), transparent 0);
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 1;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background: #030f12cf;
+  color: whitesmoke;
+  width: 100%;
+  max-height: max-content;
+  min-height: 1em;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.logo-section{
+  width: 100%;
+  margin-left: initial;
+}
+
+.logo-sec{
+  margin-left: 0.8em;
+  max-width: 35%;
+  max-height: 100%;
+}
+
+.navigation-bar{
+  width: 70%;
+  flex-grow: 2%;
+  margin-inline-end: initial;
+}
+
+a{
+  font: 14px "Brandson Grotesque", sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover{
+  color: Teal;
+  transition: 0.2s ease-in;
+}
+
+header a,
+footer a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link:hover{
+  color: Teal;
+  font-size: 20px;
+  transition: 0.2s ease-in;
+}
+
+
+.box{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 20px;
+}
+
+.box h1{
+  margin-top: 2.5em;
+  font: 30px Trebuchet MS, sans-serif;
+  padding-top: 15%;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 12px;
+  opacity: 0.8;
+}
+
+.chat p{
+  text-align: justify;
+  margin-top: 100px;
+  font:18px Georgia, sans-sefif;
+  line-height: 1.42857143;
+  color: #333;
+  text-shadow: 0 0 3px #808080;
+}
+
+.sample{
+  flex-direction: column;
+  background-color: inherit;
+}
+
+.image-container{
+  margin-top: 150px;
+  justify-content: center;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-gap: 7%;
+}
+
+.interior{
+  position: relative;
+}
+
+.interior .shade{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+.shade:hover{
+  opacity: 0.8;
+  transition: 0.1s ease-in;
+}
+
+.shade .caption{
+  margin-top: 45px;
+  font: 20px Trebuchet MS, sans-serif;
+  padding-top: 15%;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 12px;
+  opacity: 0;
+}
+
+.caption:hover{
+  opacity: 1;
+  transition: 0.1 ease-in;
+}
+
+/*
+.interior1::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+
+.interior2::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+
+.interior3::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+
+.interior4::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+
+.interior5::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+
+.interior6::after{
+  content: "";
+  background: black;
+  position: absolute;
+  width: 360px;
+  height: 240px;
+}
+*/
+.closure{
+  margin-top: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.closure h1{
+  margin-top: 2.5em;
+  font: 16px Trebuchet MS, sans-serif;
+  padding-top: 12%;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.closure h1 a:hover{
+  font: 22px;
+  transition: 0.2s ease;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 3em;
+  width: 100%;
+  color: aliceblue;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.footer-section div{
+  margin-right: 2em;
+}
+
+.footer-section span{
+  text-align: center;
+  cursor: pointer;
+}

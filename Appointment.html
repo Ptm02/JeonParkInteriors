@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Take an appointment! </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body bgcolor='Lavender' style="width: 100%;">
+
+    <header id="header">
+      <div class="logo-section">
+        <img src="Logo.png" alt="LOGO" id="header-img" class="logo-sec" width="50px" height="50px">
+      </div>
+      <nav id="nav-bar" class="navigation-bar">
+        <ul style="list-style-type: none;" class="navigation">
+          <li> <a href="#JPI" class="nav-link"> Home </a></li>
+          <li> <a href="#About" class="nav-link"> Our Story </a></li>
+          <li> <a href="#Designs" class="nav-link"> Featured </a></li>
+          <li> <a href="#Contact" class="nav-link"> Contact Us </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="Contact" class="contact-section" style="margin-top: 5em; margin-bottom: 2em;">
+      <div class="section-text">
+        <h2> Reach out to us for more information. </h2>
+        <h1> BOOK <br> AN <br> APPOINTMENT <br> TODAY! </h1>
+        <p> We would love to hear from you! </p>
+      </div>
+      <div class="appointment-flex-item">
+        <form id="form" class="appointment-form" action="connect.php" method="post">
+            <label for="Name" class="form-entry"> Name <br>
+              <input type="text" name="Name" id="Name" class="txt-box" placeholder="&nbsp; &nbsp; Kim Hana" required> <br>
+            </label>
+            <label for="contact" class="form-entry"> Contact No. <br>
+              <input type="text" name="Contact" id="contact" class="txt-box" placeholder="&nbsp; &nbsp; 0810-20-391" required> <br>
+            </label>
+            <label for="email" class="form-entry"> E-mail <br>
+              <input type="text" name="Email" id="email" class="txt-box" placeholder="&nbsp; &nbsp; example@mail.com" required> <br>
+            </label>
+            <label for="city" class="form-entry"> City <br>
+              <input type="text" name="City" id="city" class="txt-box" placeholder="&nbsp; &nbsp; Seoul" required> <br> <br>
+            </label>
+            <input type="submit" id="submit" value="Make Appointment!" class="btn">
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-info">
+        <ul style="list-style-type: none;">
+          <li> <span> Privacy &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+          <li> <span> Terms &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+          <li> <span> Contact &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+        </ul>
+      </div>
+      <span class="p-info"> Created by Pratima Rajput. <br> 20501411 </span>
+      <span> Copyright &copy; 2021 </span>
+    </footer>
+
+  </body>
+</html>

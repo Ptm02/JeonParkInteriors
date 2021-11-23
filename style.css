@@ -34,7 +34,7 @@ header{
   position: fixed;
   display: flex;
   flex-direction: row;
-  background: #030f12;
+  background: #030f12cf;
   color: whitesmoke;
   width: 100%;
   max-height: max-content;
@@ -79,6 +79,7 @@ ul{
 .nav-link:hover{
   color: Teal;
   font-size: 20px;
+  transition: 0.2s ease-in;
 }
 
 .container{
@@ -306,6 +307,7 @@ body {
 }
 
 .work figcaption{
+  caption-side: top;
   text-align: center;
   margin: 15px;
   font: 400 18px "Helvetica", serif;
@@ -322,7 +324,7 @@ body {
   background: black;
   color: ghostwhite;
   padding: 50px;
-  margin-bottom:  50px;
+  margin-bottom: 50px;
 }
 
 .form-box{

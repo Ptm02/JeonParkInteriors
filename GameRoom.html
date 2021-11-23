@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interior.css">
+    <title> Game Rooms </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+
+        <!--Progress Bar -->
+
+          <div class="progress-bar"></div>
+          <script src="nanobar.js"></script>
+          <script>
+            var nanobar = new Nanobar();
+            var element = document.documentElement,
+              body = document.body,
+              scrollTop = 'scrollTop',
+              scrollHeight = 'scrollHeight',
+              progress = document.querySelector('.progress-bar'),
+              scroll;
+            document.addEventListener('scroll', function() {
+              scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+              progress.style.setProperty('--scroll', scroll + '%');
+            });
+          </script>
+
+          <!-- Header bar -->
+
+          <header id="header">
+            <div class="logo-section">
+              <img src="Logo.png" alt="LOGO" id="header-img" class="logo-sec" style="width:50px; height:50px; border-radius:0px;">
+            </div>
+            <nav id="nav-bar" class="navigation-bar">
+              <ul style="list-style-type: none;" class="navigation">
+                <li> <a href="index.html#JPI" class="nav-link"> Home </a></li>
+                <li> <a href="index.html#About" class="nav-link"> Our Story </a></li>
+                <li> <a href="index.html#Designs" class="nav-link"> Featured </a></li>
+                <li> <a href="index.html#Contact" class="nav-link"> Contact Us </a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Intro -->
+
+        <div class="box" style="background-image: url('https://i.pinimg.com/originals/bb/7d/28/bb7d288fb3a20b86b517f3e8b003af79.jpg'); width: 60%; height: 300px;">
+          <h1> AN INSIGHT TO SOME MORE OF <br> GAME ROOMS <br> DESIGNED EXCLUSIVELY BY JPI </h1>
+          <div class="chat">
+            <p>There's a reason arcade games and pool tables are popular in bars and why playrooms and parks are a thing:
+              No matter our age, we just want to have fun at the end of the day (or all day and all night long). And if space allows,
+              having your very own game room is, well, a game-changer. To get some game room ideas for kids and adults alike, check out these examples </p>
+          </div>
+        </div>
+
+        <!--Samples-->
+
+         <div class="image-container">
+           <div class="interior">
+             <img src="https://homedesignlover.com/wp-content/uploads/2020/04/2-from-scratch.jpg">
+              <div class="shade">
+                <h1 class="caption"> From scratch </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="https://homedesignlover.com/wp-content/uploads/2020/04/4-spectrum.jpg">
+              <div class="shade">
+                <h1 class="caption"> Spectrum Game Room </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="https://homedesignlover.com/wp-content/uploads/2020/04/48-minimalist.jpg">
+              <div class="shade">
+                <h1 class="caption"> Rich Minimalist </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="https://homedesignlover.com/wp-content/uploads/2020/04/6-Alabama-Cabin.jpg">
+              <div class="shade">
+                <h1 class="caption">Alabama Cabin </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="https://homedesignlover.com/wp-content/uploads/2020/04/17-sonoma.jpg">
+              <div class="shade">
+                <h1 class="caption"> Sonoma Family Getaway </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="https://thearchitecturedesigns.com/wp-content/uploads/2020/02/Gamming-Room-Designs-13.jpg">
+              <div class="shade">
+                <h1 class="caption"> Classic Traditional </h1>
+              </div>
+           </div>
+         </div>
+
+         <!-- Closure -->
+
+         <div class="closure" style="background-image: url('https://nextluxury.com/wp-content/uploads/home-basement-with-game-room-white-paint-wall-design.jpg'); width: 40%; height: 250px;">
+           <h1> For more information, grab an appointment <br> with <br> our designers in the <br> <a style="font-size: 20px;" href="index.html#Contact"> "Contact Us" </a> section. </h1>
+         </div>
+
+         <!-- Footer Section -->
+
+             <footer class="footer-section">
+               <div class="footer-info">
+                 <ul style="list-style-type: none;">
+                   <li> <span> Privacy &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Terms &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Contact &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                 </ul>
+               </div>
+               <span class="p-info"> Created by Pratima Rajput. <br> 20501411 </span>
+               <span> Copyright &copy; 2021 </span>
+             </footer>
+
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interior.css">
+    <title> Bedrooms </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+
+        <!--Progress Bar -->
+        
+          <div class="progress-bar"></div>
+          <script src="nanobar.js"></script>
+          <script>
+            var nanobar = new Nanobar();
+            var element = document.documentElement,
+              body = document.body,
+              scrollTop = 'scrollTop',
+              scrollHeight = 'scrollHeight',
+              progress = document.querySelector('.progress-bar'),
+              scroll;
+            document.addEventListener('scroll', function() {
+              scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+              progress.style.setProperty('--scroll', scroll + '%');
+            });
+          </script>
+
+          <!-- Header bar -->
+
+          <header id="header">
+            <div class="logo-section">
+              <img src="Logo.png" alt="LOGO" id="header-img" class="logo-sec" style="width:50px; height:50px; border-radius:0px;">
+            </div>
+            <nav id="nav-bar" class="navigation-bar">
+              <ul style="list-style-type: none;" class="navigation">
+                <li> <a href="index.html#JPI" class="nav-link"> Home </a></li>
+                <li> <a href="index.html#About" class="nav-link"> Our Story </a></li>
+                <li> <a href="index.html#Designs" class="nav-link"> Featured </a></li>
+                <li> <a href="index.html#Contact" class="nav-link"> Contact Us </a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Intro -->
+
+        <div class="box" style="background-image: url('blackBedroom.jpg'); width:60%; height:300px; opacity=1;">
+            <h1> AN INSIGHT TO SOME MORE OF <br> BEDROOMS <br> DESIGNED EXCLUSIVELY BY JPI </h1>
+            <div class="chat">
+              <p> Wrap your tired eyes around this massive gallery of refreshing modern bedroom ideas and gorgeous bedroom
+                  accessories that are sure to wake you up. Find bags of designer bedroom lamps and pendant lights,
+                  slick modern bedside units, drawers and shelves and beautiful closets in which to store your very own daily
+                  catwalk collection to dress for success come morning. </p>
+            </div>
+        </div>
+
+        <!--Samples-->
+
+         <div class="image-container" style="margin-top: 180px;">
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-platform-bedroom-sets.jpg">
+             <div class="shade">
+               <h1 class="caption"> Contemporary </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-colours-for-bedroom.jpg">
+             <div class="shade">
+               <h1 class="caption"> Art Deco </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-bedroom-ideas.jpg">
+             <div class="shade">
+               <h1 class="caption"> Modern </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-table-lamps-for-bedroom.jpg">
+             <div class="shade">
+               <h1 class="caption"> Hollywood Regency </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-bedroom-lighting.jpg">
+             <div class="shade">
+               <h1 class="caption"> Midcentury Modern </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-king-bedroom-sets.jpg">
+             <div class="shade">
+               <h1 class="caption"> Scandinavian </h1>
+             </div>
+           </div>
+         </div>
+
+         <!-- Closure -->
+
+         <div class="closure" style="background-image: url('http://cdn.home-designing.com/wp-content/uploads/2018/08/Modern-minimalist-bedroom.jpg'); width: 40%; height: 250px;">
+           <h1> For more information, grab an <br> appointment with our designers in the <br> <a style="font-size: 20px;" href="index.html#Contact"> "Contact Us" </a> section. </h1>
+         </div>
+
+         <!-- Footer Section -->
+
+             <footer class="footer-section">
+               <div class="footer-info">
+                 <ul style="list-style-type: none;">
+                   <li> <span> Privacy &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Terms &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Contact &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                 </ul>
+               </div>
+               <span class="p-info"> Created by Pratima Rajput. <br> 20501411 </span>
+               <span> Copyright &copy; 2021 </span>
+             </footer>
+
+  </body>
+</html>

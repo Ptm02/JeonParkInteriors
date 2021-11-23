@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interior.css">
+    <title> Living Rooms </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+
+        <!--Progress Bar -->
+
+          <div class="progress-bar"></div>
+          <script src="nanobar.js"></script>
+          <script>
+            var nanobar = new Nanobar();
+            var element = document.documentElement,
+              body = document.body,
+              scrollTop = 'scrollTop',
+              scrollHeight = 'scrollHeight',
+              progress = document.querySelector('.progress-bar'),
+              scroll;
+            document.addEventListener('scroll', function() {
+              scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+              progress.style.setProperty('--scroll', scroll + '%');
+            });
+          </script>
+
+          <!-- Header bar -->
+
+          <header id="header">
+            <div class="logo-section">
+              <img src="Logo.png" alt="LOGO" id="header-img" class="logo-sec" style="width:50px; height:50px; border-radius:0px;">
+            </div>
+            <nav id="nav-bar" class="navigation-bar">
+              <ul style="list-style-type: none;" class="navigation">
+                <li> <a href="index.html#JPI" class="nav-link"> Home </a></li>
+                <li> <a href="index.html#About" class="nav-link"> Our Story </a></li>
+                <li> <a href="index.html#Designs" class="nav-link"> Featured </a></li>
+                <li> <a href="index.html#Contact" class="nav-link"> Contact Us </a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Intro -->
+
+        <div class="box" style="background-image: url('https://i.pinimg.com/originals/6a/00/4b/6a004b99895aab3c93d6be429d2f2cea.jpg'); width: 60%; height: 300px;">
+          <h1> AN INSIGHT TO SOME MORE OF <br> LIVING ROOMS <br> DESIGNED EXCLUSIVELY BY JPI </h1>
+          <div class="chat">
+            <p> Call it a living room, lounge or a sitting room, there’s no doubting the fact that this room serves the main purpose
+              in the entire house, the purpose of providing a comfortable space where an individual can relax.
+              Let’s take a glance at some of the beautiful looking living rooms that you may want to try out. </p>
+          </div>
+        </div>
+
+        <!--Samples-->
+
+         <div class="image-container">
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-living-room-interiors.jpg">
+              <div class="shade">
+                <h1 class="caption"> Contemporary </h1>
+              </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-living-room-lighting.jpg">
+             <div class="shade">
+               <h1 class="caption"> Electic </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-living-room-tables.jpg">
+             <div class="shade">
+               <h1 class="caption"> Midcentury Modern </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="lrl.jpg">
+             <div class="shade">
+               <h1 class="caption"> Scandinavian </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-modern-living-room-furniture.jpg">
+             <div class="shade">
+               <h1 class="caption"> Minimalist </h1>
+             </div>
+           </div>
+           <div class="interior">
+             <img src="http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-formal-living-room-furniture.jpg">
+             <div class="shade">
+               <h1 class="caption"> New Traditional </h1>
+             </div>
+           </div>
+         </div>
+
+         <!-- Closure -->
+
+         <div class="closure" style="background-image: url('http://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-homes-interior-living-room.jpg'); width: 40%; height: 250px;">
+           <h1> For more information, <br> grab an appointment <br> with our designers in the <br> <a style="font-size: 20px;" href="index.html#Contact"> "Contact Us" </a> <br> section. </h1>
+         </div>
+
+         <!-- Footer Section -->
+
+             <footer class="footer-section">
+               <div class="footer-info">
+                 <ul style="list-style-type: none;">
+                   <li> <span> Privacy &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Terms &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                   <li> <span> Contact &nbsp; &nbsp; &nbsp; &nbsp; </span> </li>
+                 </ul>
+               </div>
+               <span class="p-info"> Created by Pratima Rajput. <br> 20501411 </span>
+               <span> Copyright &copy; 2021 </span>
+             </footer>
+
+  </body>
+</html>
